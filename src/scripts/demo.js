@@ -53,7 +53,6 @@
 	function selectTheme(index) {
 		var theme = themes[index];
 		document.body.className = theme;
-		document.getElementById('theme').innerHTML = theme[0].toUpperCase() + theme.slice(1);
 		selectedThemeIndex = index;
 	}
 
