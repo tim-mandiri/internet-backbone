@@ -13,13 +13,15 @@
 
 	init();
 
+//ini kalau dihapus thema gak bisa bergerak sama sekali
 	function initThemeSwitching() {
+//ini kalau dihapus thema gak bisa diswitch lagi
 		themes = [
 			'coverflow',
 			'classic',
 			'cube',
 			'carousel',
-			'concave',
+			'concave'
 		];
 		
 		selectedThemeIndex = 0;
