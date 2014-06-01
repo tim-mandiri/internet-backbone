@@ -45,8 +45,8 @@
 			key === 37 && deck.prev();
 			(key === 32 || key === 39) && deck.next();
 
-			key === 38 && prevTheme();
-			key === 40 && nextTheme();
+			key === 37 && prevTheme();
+			(key === 32 || key === 39) && nextTheme();
 		});
 	}
 
