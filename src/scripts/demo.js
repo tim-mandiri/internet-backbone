@@ -25,23 +25,10 @@
 		];
 		
 		selectedThemeIndex = 0;
-
-		initInstructions();
 		initKeys();
-		initSlideGestures();
-		initThemeGestures();
-		initButtons();
-
 		selectTheme(0);
 	}
 
-	function initInstructions() {
-		if (isTouch()) {
-			document.getElementById('input-method').innerHTML = 'Swipe up and down';
-		}
-
-		instructionsTimeout = setTimeout(showInstructions, 5000);
-	}
 
 	function initKeys() {
 		if (/Firefox/.test(navigator.userAgent)) {
@@ -61,78 +48,6 @@
 			key === 38 && prevTheme();
 			key === 40 && nextTheme();
 		});
-	}
-
-	function initSlideGestures() {
-		var main = document.getElementById('main'),
-			startPosition,
-			delta,
-
-			singleTouch = function(fn, preventDefault) {
-				return function(e) {
-					if (preventDefault) {
-						e.preventDefault();
-					}
-					e.touches.length === 1 && fn(e.touches[0].pageX);
-				};
-			},
-
-			touchstart = singleTouch(function(position) {
-				startPosition = position;
-				delta = 0;
-			}),
-
-			touchmove = singleTouch(function(position) {
-				delta = position - startPosition;
-			}, true),
-
-			touchend = function() {
-				if (Math.abs(delta) < 50) {
-					return;
-				}
-
-				delta > 0 ? deck.prev() : deck.next();
-			};
-
-		main.addEventListener('touchstart', touchstart);
-		main.addEventListener('touchmove', touchmove);
-		main.addEventListener('touchend', touchend);
-	}
-
-	function initThemeGestures() {
-		var startPosition,
-			delta,
-
-			singleTouch = function(fn, preventDefault) {
-				return function(e) {
-					if (preventDefault) {
-						e.preventDefault();
-					}
-					e.touches.length === 1 && fn(e.touches[0].pageY);
-				};
-			};
-
-		document.addEventListener('touchstart', singleTouch(function(position) {
-			startPosition = position;
-			delta = 0;
-		}));
-
-		document.addEventListener('touchmove', singleTouch(function(position) {
-			delta = position - startPosition;
-		}, true));
-
-		document.addEventListener('touchend', function() {
-			if (Math.abs(delta) < 100) {
-				return;
-			}
-
-			delta > 0 ? prevTheme() : nextTheme();
-		});
-	}
-
-	function initButtons() {
-		document.getElementById('up-arrow').addEventListener('click', prevTheme);
-		document.getElementById('down-arrow').addEventListener('click', nextTheme);
 	}
 
 	function selectTheme(index) {
@@ -163,10 +78,6 @@
 	function hideInstructions() {
 		clearTimeout(instructionsTimeout);
 		document.querySelectorAll('header p')[0].className = 'hidden';
-	}
-
-	function isTouch() {
-		return !!('ontouchstart' in window) || navigator.msMaxTouchPoints;
 	}
 
 	function modulo(num, n) {
