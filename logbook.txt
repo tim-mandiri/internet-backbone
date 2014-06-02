@@ -1,0 +1,55 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok : TIM MANDIRI
+Judul Topik   : Internet Backbone
+Alamat Github : https://github.com/tim-mandiri/tes.git
+Alamat Trello : https://trello.com/c/gQ4oAe3j
+Anggota 1:
+	Nama: FIRMAN
+	NIM : 12.111.2261
+Anggota 2:
+	Nama: LUCIANO PRAWIRA
+	NIM:  12.111.0367
+Anggota 3:
+	Nama: IKHWAN HAFIDZ 
+	NIM:  12.111.1150
+Anggota 4:
+	Nama: ROBIN 
+	NIM:  12.111.0286
+=======================
+
+
+SPRINT
+------
+Sprint 1: 
+27/5 - 30/5
+Scrummaster: FIRMAN (12.111.2261)
+
+Sprint 2:
+31/5 - 2/6
+Scrummaster: LUCIANO PRAWIRA (12.111.2261)
+
+
+Sprint 3: 
+3/6 - 5/6
+Scrummaster: IKHWAN HAFIDZ  (12.111.1150)
+
+Sprint 3: 
+6/6 - 8/6
+Scrummaster: ROBIN  (12.111.0286)
+
+Progress Harian (Diupdate tiap hari)
+------------------------------------
+
+Daily Scrum
+30/5
+(Nama Anggota 4):Robin
+1. tidak bisa push ke server.
+
+(Nama Anggota 2):Luciano Prawira
+1. tidak bisa push ke server.
+
+(Nama Anggota 3):Ikhwan Hafidz
+1. tidak bisa push ke server.
+2. menurut saya, nama file diubah saja sesuai dengan fungsinya, biar gak bingung. soalnya, wa sedikit bingung, sehingga sering kali salah terbuka dan salah edit.
