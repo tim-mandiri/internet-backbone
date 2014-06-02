@@ -53,3 +53,17 @@ Daily Scrum
 (Nama Anggota 3):Ikhwan Hafidz
 1. tidak bisa push ke server.
 2. menurut saya, nama file diubah saja sesuai dengan fungsinya, biar gak bingung. soalnya, wa sedikit bingung, sehingga sering kali salah terbuka dan salah edit.
+
+
+1/5
+(Nama Anggota 4):ikhwan hafidz
+3. setelah saya menghapus footer, tema yang lain ikut hilang.
+
+(Nama Anggota 2):Luciano Prawira
+2. saya berhasil mengembalikannya, tetapi terdapat bug, dimana nama tema terus muncul di sudut bagian kanan.
+(Nama Anggota 2):Luciano Prawira
+
+(Nama Anggota 2):Firman
+1. Semuanya sudah bisa push ke server github dan bermain trello dan bagi anggota tim-mandiri yang kemarin sudah buat file-nya dan belum dipush, sudah boleh dipush.
+
+
