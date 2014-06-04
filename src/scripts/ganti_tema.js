@@ -20,8 +20,12 @@
 			'coverflow',
 			'classic',
 			'cube',
+			'cube',
 			'carousel',
-			'concave'
+			'concave',
+			'cards',
+			'cards'
+
 		];
 		
 		selectedThemeIndex = 0;
