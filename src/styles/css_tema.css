@@ -9,16 +9,16 @@
  *
  */
 
-/* Cube Theme */
+/* Cube Theme abu-hitam*/
 .cube {
-	background: rgba(86, 174, 231, 0.3);
+	background: rgba(0, 0, 0, 0.2);
 }
 .cube section,
 .cube .arrow:hover {
-	background: rgb(86, 174, 231);
+	background: rgb(0, 0, 0);
 }
 .cube a {
-	color: rgb(86, 174, 231);
+	color: rgb(0, 0, 0);
 }
 .cube section.bespoke-before {
 	-webkit-transform: translateX(-662px) rotateY(-70deg) translateX(-1304px) rotateY(-110deg) translateX(-1060px);
@@ -51,16 +51,16 @@
 	opacity: 0.5;
 }
 
-/* Concave Theme */
+/* Concave Theme merah*/
 .concave {
-	background: rgba(235, 156, 184, 0.3);
+	background: rgba(255, 0, 0, 0.2);
 }
 .concave section,
 .concave .arrow:hover {
-	background: rgb(235, 156, 184);
+	background: rgb(255, 0, 0);
 }
 .concave a {
-	color: rgb(235, 156, 184);
+	color: rgb(255, 0, 0);
 }
 .concave section.bespoke-before {
 	-webkit-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
@@ -93,16 +93,16 @@
 	opacity: 0.4
 }
 
-/* Coverflow Theme */
+/* Coverflow Theme hijau muda */
 .coverflow {
-	background: rgba(42, 206, 185, 0.2);
+	background: rgba(51, 255, 255, 0.2);
 }
 .coverflow section,
 .coverflow .arrow:hover {
-	background: rgb(42, 206, 185);
+	background: rgb(51, 255, 255);
 }
 .coverflow a {
-	color: rgb(42, 206, 185);
+	color: rgb(51, 255, 255);
 }
 .coverflow section.bespoke-before {
 	-webkit-transform: translateX(-270px) rotateY(45deg) scale(0.6);
@@ -178,16 +178,16 @@
 	z-index: 7;
 }
 
-/* Classic Theme */
+/* Classic Theme ungu */
 .classic {
-	background: rgba(243, 111, 86, 0.2);
+	background: rgba(153, 51, 255, 0.2);
 }
 .classic section,
 .classic .arrow:hover {
-	background: rgb(243, 111, 86);
+	background: rgb(153, 51, 255);
 }
 .classic a {
-	color: rgb(243, 111, 86);
+	color: rgb(153, 51, 255);
 }
 .classic section.bespoke-before {
 	-webkit-transform: translate3d(-4000px, 0, 0);
@@ -236,16 +236,16 @@
 	opacity: 0.3;
 }
 
-/* Carousel Theme */
+/* Carousel Theme merah*/
 .carousel {
-	background: rgba(121, 255, 0, 0.2);
+	background: rgba(255, 0, 0, 0.2);
 }
 .carousel section,
 .carousel .arrow:hover {
-	background: rgb(131, 199, 69);
+	background: rgb(255, 0, 0);
 }
 .carousel a {
-	color: rgb(131, 199, 69);
+	color: rgb(255, 0, 0);
 }
 .carousel section.bespoke-before {
 	-webkit-transform: translateX(-1960px) rotateY(-72deg) translateX(-1580px);
@@ -330,17 +330,17 @@
 	transform: rotateY(90deg);
 }
 
-/*cards*/
+/*cards kuning*/
 
 .cards {
-	background: rgba(200, 111, 86, 0.2);
+	background: rgba(204, 255, 0, 0.2);
 }
 .cards section,
 .cards .arrow:hover {
-	background: rgb(200, 111, 86);
+	background: rgb(204, 255, 0);
 }
 .cards a {
-	color: rgb(200, 111, 86);
+	color: rgb(204, 255, 0);
 }
 
 .cards section.bespoke-before {
