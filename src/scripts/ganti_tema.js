@@ -17,13 +17,11 @@
 	function initThemeSwitching() {
 //ini kalau dihapus thema gak bisa diswitch lagi
 		themes = [
+			'cube',
 			'coverflow',
 			'classic',
-			'cube',
-			'cube',
 			'carousel',
 			'concave',
-			'cards',
 			'cards'
 
 		];

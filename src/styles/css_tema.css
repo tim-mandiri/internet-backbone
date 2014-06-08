@@ -11,14 +11,16 @@
 
 /* Cube Theme abu-hitam*/
 .cube {
-	background: rgba(0, 0, 0, 0.2);
+	background-image: url("../background/5.png");
+	background-repeat: no-repeat;
+	background-size: 1025px 750px;
 }
 .cube section,
 .cube .arrow:hover {
-	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
 }
 .cube a {
-	color: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
 }
 .cube section.bespoke-before {
 	-webkit-transform: translateX(-662px) rotateY(-70deg) translateX(-1304px) rotateY(-110deg) translateX(-1060px);
@@ -53,14 +55,16 @@
 
 /* Concave Theme merah*/
 .concave {
-	background: rgba(255, 0, 0, 0.2);
+	background-image: url("../background/2.png");
+	background-repeat: no-repeat;
+	background-size: 1025px 750px;
 }
 .concave section,
 .concave .arrow:hover {
-	background: rgb(255, 0, 0);
+	background: rgba(255, 0, 153,0.5);
 }
 .concave a {
-	color: rgb(255, 0, 0);
+	background: rgba(255, 0, 153,0.5);
 }
 .concave section.bespoke-before {
 	-webkit-transform: translateX(-800px) rotateY(90deg) translateX(-800px);
@@ -95,14 +99,14 @@
 
 /* Coverflow Theme hijau muda */
 .coverflow {
-	background: rgba(51, 255, 255, 0.2);
+	background: rgba(153, 51, 255, 0.4);
 }
 .coverflow section,
 .coverflow .arrow:hover {
-	background: rgb(51, 255, 255);
+	background: rgb(153, 51, 255);
 }
 .coverflow a {
-	color: rgb(51, 255, 255);
+	background: rgb(153, 51, 255);
 }
 .coverflow section.bespoke-before {
 	-webkit-transform: translateX(-270px) rotateY(45deg) scale(0.6);
@@ -180,14 +184,16 @@
 
 /* Classic Theme ungu */
 .classic {
-	background: rgba(153, 51, 255, 0.2);
+	background-image: url("../background/3.png");
+	background-repeat: no-repeat;
+	background-size: 1025px 750px;
 }
 .classic section,
 .classic .arrow:hover {
-	background: rgb(153, 51, 255);
+	background: rgba(153, 51, 255, 0.4);
 }
 .classic a {
-	color: rgb(153, 51, 255);
+	background: rgba(153, 51, 255, 0.4);
 }
 .classic section.bespoke-before {
 	-webkit-transform: translate3d(-4000px, 0, 0);
@@ -238,14 +244,16 @@
 
 /* Carousel Theme merah*/
 .carousel {
-	background: rgba(255, 0, 0, 0.2);
+	background-image: url("../background/4.png");
+	background-repeat: no-repeat;
+	background-size: 1025px 750px;
 }
 .carousel section,
 .carousel .arrow:hover {
-	background: rgb(255, 0, 0);
+	background: rgba(0, 51, 255, 0.4);
 }
 .carousel a {
-	color: rgb(255, 0, 0);
+	background: rgba(0, 51, 255, 0.4);
 }
 .carousel section.bespoke-before {
 	-webkit-transform: translateX(-1960px) rotateY(-72deg) translateX(-1580px);
@@ -333,14 +341,15 @@
 /*cards kuning*/
 
 .cards {
-	background: rgba(204, 255, 0, 0.2);
+	background: rgba(0,0, 0, 0.4);
+
 }
 .cards section,
 .cards .arrow:hover {
-	background: rgb(204, 255, 0);
+	background: rgb(0, 0, 0);
 }
 .cards a {
-	color: rgb(204, 255, 0);
+	background: rgb(0, 0, 0);
 }
 
 .cards section.bespoke-before {
